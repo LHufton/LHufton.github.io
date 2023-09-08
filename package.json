@@ -1,0 +1,26 @@
+{
+  "name": "lhufton.github.io",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LHufton/LHufton.github.io.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "Frontend",
+    "UI",
+    "Web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHufton/LHufton.github.io/issues"
+  },
+  "homepage": "https://github.com/LHufton/LHufton.github.io#readme"
+}
