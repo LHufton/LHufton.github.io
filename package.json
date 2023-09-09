@@ -4,6 +4,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.jsx",
   "scripts": {
+    "dev": "npm run build && npm run start",
     "test": "npm test"
   },
   "repository": {
@@ -17,7 +18,7 @@
     "UI",
     "Web"
   ],
-  "author": "",
+  "author": "Luke Hufton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LHufton/LHufton.github.io/issues"
