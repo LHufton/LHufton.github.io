@@ -1,20 +1,52 @@
 {
   "name": "lhufton.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was bootstrapped with Create React App.",
   "main": "index.jsx",
   "scripts": {
-    "dev": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LHufton/LHufton.github.io.git"
+    "url": "git+ssh://git@github.com/LHufton/LHufton.github.io.git"
   },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "Frontend",
+    "UI",
+    "Web"
+  ],
   "author": "Luke Hufton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LHufton/LHufton.github.io/issues"
   },
-  "homepage": "https://github.com/LHufton/LHufton.github.io#readme"
+  "homepage": "https://github.com/LHufton/LHufton.github.io#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
