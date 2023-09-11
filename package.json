@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/LHufton/LHufton.github.io#readme",
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
